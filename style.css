@@ -103,4 +103,29 @@ nav {
 .card div.description {
    font-size: 12px;
 }
+.card h3 {
+   font-size: 14px;
+}
+.social {
+   margin-top: 1rem;
+   font-size: 12px;
+ }
+ .social span {
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-left: 25px;
+   margin-right: 10px;
+ }
+ .social .heart {
+   background-image: url("./images/heart.png");
+ }
+ .social .comment {
+   background-image: url(./images/comment.png);
+ }
+ main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 0;
+ }
 /* add styles here */
