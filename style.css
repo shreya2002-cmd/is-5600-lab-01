@@ -26,5 +26,40 @@ nav {
    padding: 20px;
    height: 100px;
  }
+ nav li {
+   display: inline-block;
+   list-style-type: none;
+ }
+ nav a:link{
+   color: green;
+ }
+ nav a:visited{
+   color: yellow;
+ }
+ nav a:hover{
+   color: red
+ }
+ nav ul {
+   margin-left: 80px;
+ }
+ nav a {
+   color: #919b27;
+   text-decoration: none;
+   padding: 10px;
+   font-weight: 600;
+ }
 
+ nav a:visited {
+   color: #370b9f;
+ }
+
+ nav a:hover {
+   color: #3f0b9f;
+   text-decoration: underline;
+ }
+
+ nav a:active{
+   color: #62c77b
+ }
+ 
 /* add styles here */
